@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.yantao2hao.regimen.LazyLoadRecyclerView
+        android:id="@+id/article_list_llrv"
+        android:scrollbars="vertical"
+        android:scrollbarStyle="outsideOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></com.yantao2hao.regimen.LazyLoadRecyclerView>
+</LinearLayout>
